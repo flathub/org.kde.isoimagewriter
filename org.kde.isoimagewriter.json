@@ -1,7 +1,7 @@
 {
    "id": "org.kde.isoimagewriter",
    "runtime": "org.kde.Platform",
-   "runtime-version": "5.15-23.08",
+   "runtime-version": "6.6",
    "sdk": "org.kde.Sdk",
    "command": "isoimagewriter",
    "finish-args": [
@@ -19,18 +19,14 @@
          "sources": [
             {
                "type": "archive",
-               "url": "https://download.kde.org/stable/isoimagewriter/1.0.0/isoimagewriter-1.0.0.tar.xz",
-               "sha256": "a69022303ec1beb6b7b4f0d68e59e4199d3c9868767cb9eb23c6dd1999e06a5d",
+               "url": "https://download.kde.org/stable/release-service/24.02.0/src/isoimagewriter-24.02.0.tar.xz",
+               "sha256": "484bb5d99102bd74467c19c76f5a3b1336e0f5294e04a34110a1310ae7159f86",
                "x-checker-data": {
                      "type": "anitya",
-                     "project-id": 341536,
+                     "project-id": 8763,
                      "stable-only": true,
-                     "url-template": "https://download.kde.org/stable/isoimagewriter/$version/isoimagewriter-$version.tar.xz"
+                     "url-template": "https://download.kde.org/stable/release-service/$version/src/isoimagewriter-$version.tar.xz"
                   }
-            },
-            {
-                    "type": "patch",
-                    "path": "logo.patch"
             }
          ]
       }
