@@ -1,34 +1,34 @@
 {
-   "id": "org.kde.isoimagewriter",
-   "runtime": "org.kde.Platform",
-   "runtime-version": "6.6",
-   "sdk": "org.kde.Sdk",
-   "command": "isoimagewriter",
-   "finish-args": [
-      "--device=dri",
-      "--filesystem=host",
-      "--share=ipc",
-      "--socket=fallback-x11",
-      "--socket=wayland",
-      "--system-talk-name=org.freedesktop.UDisks2"
-   ],
-   "modules": [
-      {
-         "name": "isoimagewriter",
-         "buildsystem": "cmake-ninja",
-         "sources": [
-            {
-               "type": "archive",
-               "url": "https://download.kde.org/stable/release-service/24.02.0/src/isoimagewriter-24.02.0.tar.xz",
-               "sha256": "484bb5d99102bd74467c19c76f5a3b1336e0f5294e04a34110a1310ae7159f86",
-               "x-checker-data": {
-                     "type": "anitya",
-                     "project-id": 8763,
-                     "stable-only": true,
-                     "url-template": "https://download.kde.org/stable/release-service/$version/src/isoimagewriter-$version.tar.xz"
-                  }
-            }
-         ]
-      }
-   ]
+    "id": "org.kde.isoimagewriter",
+    "runtime": "org.kde.Platform",
+    "runtime-version": "6.6",
+    "sdk": "org.kde.Sdk",
+    "command": "isoimagewriter",
+    "finish-args": [
+        "--device=dri",
+        "--filesystem=host",
+        "--share=ipc",
+        "--socket=fallback-x11",
+        "--socket=wayland",
+        "--system-talk-name=org.freedesktop.UDisks2"
+    ],
+    "modules": [
+        {
+            "name": "isoimagewriter",
+            "buildsystem": "cmake-ninja",
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://download.kde.org/stable/release-service/24.02.1/src/isoimagewriter-24.02.1.tar.xz",
+                    "sha256": "5fa7b48792ee3e49b57e676199f2f2d224407c342d4b9d3f8eb66c90668a9661",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 8763,
+                        "stable-only": true,
+                        "url-template": "https://download.kde.org/stable/release-service/$version/src/isoimagewriter-$version.tar.xz"
+                    }
+                }
+            ]
+        }
+    ]
 }
