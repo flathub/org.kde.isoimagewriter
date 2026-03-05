@@ -19,8 +19,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/25.12.2/src/isoimagewriter-25.12.2.tar.xz",
-                    "sha256": "a7a1f83c481f5829c76dab447284778ef492578674f924a7274f4a304f694cde",
+                    "url": "https://download.kde.org/stable/release-service/25.12.3/src/isoimagewriter-25.12.3.tar.xz",
+                    "sha256": "c53935393cc080665ce5e8bd79d3ce2eece4abad9efd2eafa21ae7ac4399e909",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
